@@ -1,0 +1,618 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-07-24 12:40+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: resources/views/note/delivery-note/content.php:83
+msgid "Package number"
+msgstr ""
+
+#: resources/views/note/delivery-note/content.php:91
+msgid "Delivery note LS"
+msgstr ""
+
+#: resources/views/note/delivery-note/content.php:91
+msgid "Order number"
+msgstr ""
+
+#: resources/views/note/delivery-note/content.php:96
+msgid "Date"
+msgstr ""
+
+#: resources/views/note/delivery-note/content.php:98
+msgid "Customer number"
+msgstr ""
+
+#: resources/views/note/delivery-note/content.php:102
+msgid "Your contact person"
+msgstr ""
+
+#: resources/views/note/delivery-note/content.php:115
+msgid "Item"
+msgstr ""
+
+#: resources/views/note/delivery-note/content.php:116
+msgid "Description"
+msgstr ""
+
+#: resources/views/note/delivery-note/content.php:117
+msgid "Unit"
+msgstr ""
+
+#: resources/views/note/delivery-note/content.php:118
+msgid "Quantity ordered"
+msgstr ""
+
+#: resources/views/note/delivery-note/content.php:119
+msgid "Crowd open"
+msgstr ""
+
+#: resources/views/note/delivery-note/content.php:120
+msgid "Quantity delivered"
+msgstr ""
+
+#: resources/views/note/delivery-note/content.php:147
+msgid "Product Code"
+msgstr ""
+
+#: resources/views/note/delivery-note/content.php:161
+msgid "Annotation:"
+msgstr ""
+
+#: src/Note/Types/DeliveryNote.php:20 src/Settings/Sections/Delivery.php:49
+msgid "{company} {address} Email: {email} Website: {website}"
+msgstr ""
+
+#: src/Note/Types/DeliveryNote.php:40 src/Settings/Sections/Delivery.php:33
+msgid "Ladies and gentlemen"
+msgstr ""
+
+#: src/Note/Types/DeliveryNote.php:41 src/Settings/Sections/Delivery.php:41
+msgid ""
+"Thank you very much for the order.<br><br>Feel free to contact us if you "
+"have any questions.<br><br>Kind regards<br>{contact_name}<br>{company}"
+msgstr ""
+
+#: src/Note/Note.php:36
+msgid "Planzer delivery note for order"
+msgstr ""
+
+#: src/Note/Note.php:39
+msgid "Planzer label note for order"
+msgstr ""
+
+#: src/Note/Note.php:42
+msgid "Planzer note for order"
+msgstr ""
+
+#: src/Note/Note.php:51
+#, php-format
+msgid "Planzer: ERROR while sending Planzer PDF email - %s"
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:13 src/Settings/Sections/Delivery.php:73
+msgid "Delivery"
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:14
+msgid "Delivery note"
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:16
+msgid "Generate delivery note"
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:17
+msgid "Generate label note"
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:21
+msgid "Logo URL"
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:21
+msgid "URL of logo that will be placed on the delivery note"
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:22
+msgid "Note receiver"
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:23
+msgid ""
+"Receiver of the delivery/label note (for multiple addresses separate them by "
+"using commas)"
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:26
+msgid "Contact name"
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:26
+msgid "First and last name that will be placed on the delivery note"
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:27
+msgid "Salutation"
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:29
+msgid "This salutation text is visible in the delivery note."
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:35
+msgid "Signature"
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:37
+msgid "This signature text is visible in the delivery note."
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:43
+msgid "Footer"
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:45
+msgid "This footer text is visible in the delivery note."
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:51
+msgid "Delivery time (chargeable)"
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:54
+msgid "Next day"
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:55
+msgid "Delivery by 10 o'clock"
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:56
+msgid "Delivery by 12 o'clock"
+msgstr ""
+
+#: src/Settings/Sections/Delivery.php:60
+msgid "Delivery on Saturday"
+msgstr ""
+
+#: src/Settings/Sections/Other.php:12 src/Settings/Sections/Other.php:33
+msgid "Other"
+msgstr ""
+
+#: src/Settings/Sections/Other.php:13
+msgid "Excluded products"
+msgstr ""
+
+#: src/Settings/Sections/Other.php:16
+msgid "Select product that are note being sent with Planzer."
+msgstr ""
+
+#: src/Settings/Sections/Other.php:18
+msgid "Excluded shippings"
+msgstr ""
+
+#: src/Settings/Sections/Other.php:21
+msgid "Select shipping codes that should not use Planzer."
+msgstr ""
+
+#: src/Settings/Sections/Other.php:49 src/Settings/Sections/Other.php:67
+msgid "none"
+msgstr ""
+
+#: src/Settings/Sections/Notifications.php:13
+#: src/Settings/Sections/Notifications.php:14
+#: src/Settings/Sections/Notifications.php:49
+msgid "Notifications"
+msgstr ""
+
+#: src/Settings/Sections/Notifications.php:16
+msgid "Yes, send email notifications to me"
+msgstr ""
+
+#: src/Settings/Sections/Notifications.php:17
+msgid "No, do not send email notifications to me"
+msgstr ""
+
+#: src/Settings/Sections/Notifications.php:19
+msgid "Do you want to receive notifications?"
+msgstr ""
+
+#: src/Settings/Sections/Notifications.php:22
+msgid "Customer email notification"
+msgstr ""
+
+#: src/Settings/Sections/Notifications.php:23
+msgid "Send email notifications to the package receiver"
+msgstr ""
+
+#: src/Settings/Sections/Notifications.php:26
+msgid "Customer SMS notification"
+msgstr ""
+
+#: src/Settings/Sections/Notifications.php:27
+msgid "Send SMS notifications to the package receiver"
+msgstr ""
+
+#: src/Settings/Sections/Notifications.php:30
+msgid "Notice of deposit"
+msgstr ""
+
+#: src/Settings/Sections/Notifications.php:32
+msgid "No deposit with signature"
+msgstr ""
+
+#: src/Settings/Sections/Notifications.php:33
+msgid "Always deposit the package (without signature)"
+msgstr ""
+
+#: src/Settings/Sections/Notifications.php:34
+msgid ""
+"Usually with signature but the receiver can choose if he wants the package "
+"to be deposited"
+msgstr ""
+
+#: src/Settings/Sections/Notifications.php:38
+msgid "Deposit notice"
+msgstr ""
+
+#: src/Settings/Sections/FTP.php:13
+msgid "Mode"
+msgstr ""
+
+#: src/Settings/Sections/FTP.php:14
+msgid "Test Mode"
+msgstr ""
+
+#: src/Settings/Sections/FTP.php:15
+msgid "Enable test mode of SFTP integration"
+msgstr ""
+
+#: src/Settings/Sections/FTP.php:20
+msgid "Live"
+msgstr ""
+
+#: src/Settings/Sections/FTP.php:21
+msgid "Account ID"
+msgstr ""
+
+#: src/Settings/Sections/FTP.php:23
+msgid "Server URL"
+msgstr ""
+
+#: src/Settings/Sections/FTP.php:26
+msgid ""
+"Please do not change the URL unless you have been expressly requested to do "
+"so by support or you know what you are doing. Changes in this field can "
+"result in data no longer being transmitted to Planzer."
+msgstr ""
+
+#: src/Settings/Sections/FTP.php:42
+msgid "FTP"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:12
+msgid "Contract Details"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:13
+msgid "Depart. No."
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:21
+msgid "Customer No."
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:29
+msgid "Your branch"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:32
+msgid "Dietikon"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:33
+msgid "Pratteln / Basel"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:34
+msgid "Bioggio"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:35
+msgid "Bern"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:36
+msgid "Penthalaz"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:37
+msgid "Conthey"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:38
+msgid "Domat / Ems"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:39
+msgid "Altstetten / Zürich"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:40
+msgid "Carouge"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:41
+msgid "Märstetten"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:42
+msgid "Seewen"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:43
+msgid "Kölliken"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:44
+msgid "Winterthur"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:50
+msgid "Sender Information"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:51
+msgid "Company"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:52
+msgid "Company extra"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:56
+msgid "Street"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:60
+msgid "House Number"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:64
+msgid "ZIP"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:68
+msgid "City"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:72
+msgid "Country"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:75
+msgid "Schweiz / Switzerland"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:79
+msgid "Language"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:83
+msgid "Instruction"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:84
+msgid "E-Mail"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:88
+msgid "Phone"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:89
+msgid "Mobile"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:93
+msgid "Automatic address verification (experimental feature)"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:94
+msgid "Activate automatic address checking on the checkout"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:99 src/Settings/Sections/Sender.php:102
+msgid "Manual transmission"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:100
+msgid ""
+"By default, orders with the status \"Processing\" are automatically "
+"transmitted to Planzer. Here you have the possibility to deactivate this "
+"function and send orders to Planzer manually by changing the status of the "
+"order to \"Transmit to Planzer\" manually."
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:103
+msgid "Send orders to Planzer only after manual status adjustment"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:107
+msgid "Pickup Orders"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:108
+msgid "Orders until this time will get picked up by Planzer the same day"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:110
+msgid "Orders until"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:124
+msgid "Sender"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:130
+msgctxt "language name"
+msgid "Deutsch"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:131
+msgctxt "language name"
+msgid "Français"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:132
+msgctxt "language name"
+msgid "Italiano"
+msgstr ""
+
+#: src/Settings/Sections/Sender.php:133
+msgctxt "language name"
+msgid "English"
+msgstr ""
+
+#: src/Settings/Sections/General.php:13
+msgid "Checkbox"
+msgstr ""
+
+#: src/Settings/Sections/General.php:14
+msgid "Text"
+msgstr ""
+
+#: src/Settings/Sections/General.php:15
+msgid "Number"
+msgstr ""
+
+#: src/Settings/Sections/General.php:16
+msgid "Select"
+msgstr ""
+
+#: src/Settings/Sections/General.php:27
+msgid "General"
+msgstr ""
+
+#: src/Settings/Sections/SectionBase.php:97
+msgid "Yes"
+msgstr ""
+
+#: src/Settings/Sections/SectionBase.php:98
+msgid "No"
+msgstr ""
+
+#: src/WooCommerce/Submodules/OrderStatus.php:45
+#: src/WooCommerce/Submodules/OrderStatus.php:61
+#: src/WooCommerce/Submodules/BulkAction.php:22
+msgid "Transmit to Planzer"
+msgstr ""
+
+#: src/WooCommerce/Submodules/OrderStatus.php:50
+#, php-format
+msgid "Transmit to Planzer (%s)"
+msgid_plural "Transmit to Planzer (%s)"
+msgstr[0] ""
+msgstr[1] ""
+
+#: src/WooCommerce/Submodules/OrderStatus.php:80
+msgid "The order shipping class is excluded from Planzer"
+msgstr ""
+
+#: src/WooCommerce/Submodules/OrderStatus.php:92
+#: src/WooCommerce/Submodules/BulkAction.php:70
+#: src/WooCommerce/Submodules/OrderAction.php:40
+msgid "All products excluded from delivery"
+msgstr ""
+
+#: src/WooCommerce/Submodules/OrderStatus.php:97
+#: src/WooCommerce/Submodules/BulkAction.php:75
+#: src/WooCommerce/Submodules/OrderAction.php:45
+msgid "Test mode enabled - data not sent"
+msgstr ""
+
+#: src/WooCommerce/Submodules/OrderStatus.php:101
+#: src/WooCommerce/Submodules/BulkAction.php:79
+#: src/WooCommerce/Submodules/OrderAction.php:49
+msgid "Planzer: CSV generated."
+msgstr ""
+
+#: src/WooCommerce/Submodules/OrderStatus.php:107
+#: src/WooCommerce/Submodules/BulkAction.php:85
+#: src/WooCommerce/Submodules/OrderAction.php:55
+msgid "Planzer: delivery/label note and CSV generated."
+msgstr ""
+
+#: src/WooCommerce/Submodules/OrderStatus.php:115
+#: src/WooCommerce/Submodules/BulkAction.php:93
+#: src/WooCommerce/Submodules/OrderAction.php:63
+msgid "Reference number:"
+msgstr ""
+
+#: src/WooCommerce/Submodules/OrderStatus.php:116
+#: src/WooCommerce/Submodules/BulkAction.php:94
+#: src/WooCommerce/Submodules/OrderAction.php:64
+msgid "Package number: "
+msgstr ""
+
+#: src/WooCommerce/Submodules/OrderStatus.php:119
+#: src/WooCommerce/Submodules/BulkAction.php:97
+#: src/WooCommerce/Submodules/OrderAction.php:67
+msgid ""
+"There was an error while sending data to Planzer - please try again or check "
+"debuglog."
+msgstr ""
+
+#: src/WooCommerce/Submodules/BulkAction.php:38
+#, php-format
+msgid "The orders with number <b>%s</b> have proceeded to the planzer."
+msgstr ""
+
+#: src/WooCommerce/Submodules/BulkAction.php:38
+#, php-format
+msgid ""
+"The maximum limit of orders to sent to the planzer at one time is 5. We sent "
+"5 orders: <b>%s</b>. For the rest of the orders not processed please choose "
+"them again"
+msgstr ""
+
+#: src/WooCommerce/Submodules/CheckoutAddressValidation.php:32
+msgid "The address is invalid - please type in an existing address"
+msgstr ""
+
+#: src/WooCommerce/Submodules/CheckoutAddressValidation.php:36
+#: src/Api/Endpoints/Address.php:37
+msgid ""
+"There was a problem with verifying your address, please try again later or "
+"contact administrator."
+msgstr ""
+
+#: src/WooCommerce/Submodules/OrderAction.php:22
+msgid "Generate Planzer note and create package"
+msgstr ""
+
+#: src/Core/Config.php:71
+msgid "Settings"
+msgstr ""
+
+#: src/SFTP/SFTP.php:22
+msgid ""
+"There was a problem with the connection to the server, please try again "
+"later or contact administrator."
+msgstr ""
